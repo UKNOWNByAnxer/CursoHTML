@@ -1,0 +1,37 @@
+.hola1 {
+    background: red;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+
+    border-width: 3px; /*Tamaño del borde*/
+    border-style: solid; /*Estilo del borde*/
+    border-color: black; /*Color del borde*/
+
+    border-radius: 6px;  /*Curva en las esquinas. y funciona aparte de border*/
+
+    border: 3px solid black; /*Remplaza a border width-style-color en ese orden*/
+}
+
+.hola2 {
+    background: rgb(255, 0, 200);
+    width: 150px;
+    margin: auto;
+    text-align: center;
+
+    border: 5px solid blue;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 10px;
+}
+
+.hola3 {
+    background: rgb(0, 47, 255);
+    width: 150px;
+    margin: auto;
+    text-align: center;
+
+    border: 5px solid rgb(0, 255, 0);
+    border-radius: 10px 50px 0 4px;
+}

@@ -1,0 +1,15 @@
+h1{
+    color: rgb(126, 21, 224);
+    text-align: center;
+}
+
+p{
+    color: red;
+    font-family: Anxer;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 1;
+}
