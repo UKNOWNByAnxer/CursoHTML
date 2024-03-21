@@ -59,13 +59,13 @@
     - PseudoClases (:hover :active :focus ...)
 
 ## Como se Veria?
-.CUBO {
-    Color: Azul;
-    Tamaño:16px;
-    Fuente: Arial;
-    Margen:20px;
-    Borde:Negro;
-}
+    .CUBO {
+        Color: Azul;
+        Tamaño:16px;
+        Fuente: Arial;
+        Margen:20px;
+        Borde:Negro;
+    }
 
 .CUBO = Selector
 {} = Bloque de declaraciones
