@@ -1,0 +1,28 @@
+<!--
+    La etiqueta form:
+
+    La etiqueta input:
+    Sirve para indicar que obtendremos un dato
+    - type="text" : indica el tipo de dato a capturar, en este caso es texto.
+    - name="nombre" : nombre del campo que se enviará al servidor.
+    - value="" : valor por defecto del campo.
+    - required: Indica si el campo debe ser obligatorio o no. Si se omite este atributo, el campo puede estar vacío y el usuario puede enviar la forma sin completarlo.
+    - placeholder Es una sugerencia de lo que debe escribir el usuario.
+
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formularios</title>
+    </head>
+    <body>
+        <form>
+            <input type="text" name="username" placeholder="Ingresa tu usuario" required minlength="3">
+            <input type="email" name="email" placeholder="example@mail.com">
+            <input type="password">
+            <input type="checkbox" required>
+            <input type="submit">
+        </form>
+    </body>
+</html>
