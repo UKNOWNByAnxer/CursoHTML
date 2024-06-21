@@ -1,0 +1,20 @@
+/* Las etiquetas en HTML son elementos específicos dentro de un documento HTML que definen el tipo de contenido que contienen. Son utilizadas para estructurar y organizar el contenido de una página web. */
+h1 {
+    /* En CSS, las etiquetas se seleccionan utilizando directamente el nombre de la etiqueta para aplicar estilos a todos los elementos de ese tipo en la página. */
+    /* Por ejemplo, aquí estamos cambiando el color del texto de todos los encabezados de nivel 1 (<h1>) a azul. */
+    color: blue;
+}
+
+/* Las clases en HTML son atributos que se pueden aplicar a uno o más elementos para identificarlos como parte de un grupo específico. Se utilizan para aplicar estilos comunes a varios elementos sin tener que repetir las reglas de estilo. */
+.faltante {
+    /* En CSS, las clases se seleccionan utilizando un punto (.) seguido del nombre de la clase para aplicar estilos a todos los elementos que tienen esa clase. */
+    /* Por ejemplo, aquí estamos cambiando el color del texto de todos los elementos con la clase "faltante" a rojo. */
+    color: red;
+}
+
+/* Los identificadores en HTML son similares a las clases, pero se utilizan para identificar de forma única un solo elemento en toda la página. Son únicos en una página web y se utilizan para aplicar estilos o acceder a un elemento específico mediante JavaScript. */
+#tienes {
+    /* En CSS, los identificadores se seleccionan utilizando un hash (#) seguido del nombre del identificador para aplicar estilos a ese elemento específico. */
+    /* Por ejemplo, aquí estamos cambiando el color del texto del elemento con el ID "tienes" a azul violeta. */
+    color: blueviolet;
+}

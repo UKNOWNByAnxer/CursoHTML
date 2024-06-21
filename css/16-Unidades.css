@@ -1,0 +1,59 @@
+body {
+    font-size: 40px;
+    margin: 0;
+}
+
+div {
+    background-color: rgb(227, 229, 230);
+    padding: 20px;
+    font-family: sans-serif;
+    border-left: 2px solid #999;
+    font-size: 20px;
+    width: 80vw;
+    height: 80vh;
+    margin: 0;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+h1 {
+    border-radius: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 0 0 50px;
+    background-color: #ced5df;
+}
+
+h2{
+    margin: 0;
+    font-size: 22px;
+}
+
+span{
+    color: #999;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+p {
+    text-align: justify;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    color: #555;
+}
+
+/*
+px - pixeles
+cm - centimetros
+mm - milimetros
+in - pulgadas
+pt - puntos (1/72 de pulgada)
+pc - picas (12 pt.)
+em - relativa a la fuente actual por ejemplo si en el elemento padre ya existe el atributo font-size es 14px un em es igual a 14px y dos em son 28px
+rem - relativa a la fuente raíz basicamen lo mismo que em pero con html osea el elemento raiz es <html></html>
+vw o vh - viewport width o height 
+vmax o vmin - viewport maximum o minimum hace una comparacion entre el vh con el vw y escoje el mas grande o el mas pequeño
+% - porcentaje del tamaño de la ventana gráfica
+*/

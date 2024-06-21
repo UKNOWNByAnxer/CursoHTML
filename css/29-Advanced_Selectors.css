@@ -1,0 +1,53 @@
+* {
+    font-family: sans-serif;
+}
+
+img[src="img/LearixLogo.png"] {
+    width: 300px;
+}
+/*Selector por atributo [<atributo identico>] pero tambien pueden ser atributos aparte*/
+/*
+img[src$="png"]{
+    border: 1px solid #000;
+} 
+/*El simbolo de $ indica que arranca con cualquier cosa pero termina con <extension> ...png*/
+
+/*img[src^="img/LearixLogo"]{
+    border-radius: 10px;
+}
+/*El simbolo de ^ indica que arranca con <nombre o ruta inicial> y termina con cualquier <extension> img/LearixLogo...*/
+
+/*ul li {
+    color: #f00;
+} 
+/*Selector decendiente. el que puse indica que cambiara el color de todos los <li> ubicados dentro de un <ul>*/
+
+/*ul strong {
+    color: #333;
+} 
+/*Selector decendiente. el que puse indica que cambiara el color de todos los <strong> ubicados dentro de un <ul>*/
+
+/*ul > strong {
+    color: #f00;
+} 
+/* '>'Selector decendiente directo. Fuerza a que la etiqueta debe estar dentro de otra etiqueta es decir que no sea tataranieto ni nieto que sea directamente dentro de esa etiqueta. aqui estoy diciendo que <strong> debe estar afuerzas dentro de <ul> por eso no funciona */
+
+/* h1 + p {
+    color: #00f;
+}
+/* Selector hermano adyacente. indica que se va aplicar los estilos a la siguiente <etiqueta>. en este caso se le aplicara el estilo al p que le siga de h1*/
+
+/*h1 ~ p {
+    color: #00f;
+} 
+/* Selector hermanos generales. indica que se va aplicar los estilos a las siguientes <etiqueta>. en este caso se le aplicaran los estilos a los p que le sigan del h1*/
+
+h1 + p + p + ul {
+    color: #00f;
+}
+/* Se pueden agregar mas selectores en los selectores. En este caso estoy diciendo que agregue los estilos a la etiqueta <ul> que le siga de un <p> que le siga de un <p> que le siga de un <h1> */
+
+h1, p {
+    color: #0f0;
+}
+/*La coma es para separar los selectores */

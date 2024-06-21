@@ -1,0 +1,52 @@
+/*
+    Padding es el relleno de un elemento basicamente aunmenta el borde del contenido y lo separa.
+
+    padding-top: 10px; Separa la parte de arriba 10px respecto al borde
+    padding-bottom: 10px; Separa la parte de abajo 10px respecto al borde
+    padding-left: 10px; Separa la parte izquierda 10px respecto al borde
+    padding-right: 10px; Separa la parte derecha 10px respecto al borde
+
+    al usar padding podemos usar todos en una sola linea en sentido de las lineas del reloj.
+
+    1-padding top (superior)
+    2-padding right (derecha)
+    3-padding bottom (inferior)
+    4-padding left (izquierda)
+    padding: 10 10 10 10; //Esto seria poner la misma cantidad
+
+    si ponemos solamente 2 valores es decir.
+    padding: 10px 10px;
+    estamos diciendo que es la parte horizontal y la parte vertical
+
+    Mientras que el Margin es el espacio entre elementos.
+
+    margin-top: 10px; Separa la parte de arriba 10px
+    margin-bottom: 10px; Separa la parte de abajo 10px
+    margin-left: 10px; Separa la parte izquierda 10px
+    margin-right: 10px; Separa la parte derecha 10px
+
+    margin: 10 10 10 10; // Esto seria poner la misma cantidad
+
+    si ponemos solamente 2 valores es decir.
+    margin: 10px 10px;
+    estamos diciendo que es la parte horizontal y la parte vertical
+*/
+
+.formulario{
+    background: red;
+    padding: 30px;
+}
+
+.formulario_input{ /*Contenido del formulario*/
+    padding: 6px 10px;
+    width: 90%;
+    margin: 10px;
+}
+
+.formulario_submit{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: blueviolet;
+    color: aliceblue;
+    width: 50%;
+}

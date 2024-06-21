@@ -1,0 +1,31 @@
+.card {
+    background: coral;
+    text-align: center;
+    width: 300px;
+    margin-top: 20px;
+    margin: auto;
+}
+
+body {
+    background: black;
+    font-family: sans-serif;
+    color: white;
+}
+
+.card_title {
+    padding-top: 10px;
+    font-size: 22px;
+}
+
+.card_subtitle {
+    font-size: 13px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.card_content {
+    font-size: 9px;
+    padding: 20px;
+    background-color: lightcoral;
+    text-align: justify;
+}

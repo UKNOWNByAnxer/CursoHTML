@@ -1,0 +1,16 @@
+body {
+    color: #2d99f2;
+    font-family: sans-serif;
+}/* Herencia. en este caso todos los elementos dentro del body son afectados por los estilos establecidos y solamente se pueden alterar si se les da un estilo despues */
+
+h1 {
+    color: #f00; /* aca le estamos dando el estilo de color rojo a la etiqueta h1*/
+}
+
+p {
+    color: #00f; /* aca le estamos dando el estilo de un color azul mas fuerte a la etiqueta p lo cual afecta la herencia inicial de body. Si no se le da una propiedad el valor por defecto es inherit es decir si aqui no le definia un color el color seria - color: inherit;*/
+}
+
+p {
+    color: initial;
+} /* Para que un elemento no herede lo del bloque donde esta se usa su valor inicial es decir 'initial' el cual indica que si tiene un valor inicial no lo va a cambiar basicamente busca el valor que tiene el navegador por defecto*/

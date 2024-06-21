@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+
+}
+
+td, th {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 6px;
+    padding-bottom: 6px;
+    border: none;
+    border-bottom: 1px solid #0004;
+}
+
+td {
+    color: #666;
+}
+
+table {
+    width: 100%;
+    border-spacing: 12px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 0 25px #0003;
+    margin-top: 30px;
+}
+
+.datos, .header_datos {
+    border: none;
+    padding: 12px;
+    font-size: 1.2em;
+}

@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.box {
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    margin: 20px;
+    background-color: transparent;
+    background-image: url("https://cdn.discordapp.com/attachments/1212229156163555408/1219480961511723119/Keylogger-removebg-preview.png?ex=660b7526&is=65f90026&hm=1a640e1f9366b6134751566cb40dad0dc53fd06a5c051fc84aff27a7f8cc9263&");
+    background-size: contain; /* contain Obliga a que la imagen se muestre almenos 1 vez*/
+    background-size: cover; /* cover hace que la imagen no importa la resolucion se ajuste a las dimensiones que debe tener*/
+    background-position: center; /* centra la imagen*/
+    background-repeat: no-repeat; /* indica si la imagen se va a repetir o no */
+    background-attachment: fixed; /* Efecto scroll en la web */
+    background: url("https://cdn.discordapp.com/attachments/1212229156163555408/1219480961511723119/Keylogger-removebg-preview.png?ex=660b7526&is=65f90026&hm=1a640e1f9366b6134751566cb40dad0dc53fd06a5c051fc84aff27a7f8cc9263&") top / cover no-repeat fixed transparent; /* es lo mismo que poner la url, la posicion el backgrounf, size, si se repite y el attachment*/
+}
+
+.opaco {
+    height: 100%;
+    width: 100%;
+    background-color: #0007;
+}
+
+h2 {
+    padding: 20px;
+    text-align: center;
+}
