@@ -67,5 +67,5 @@
         Borde:Negro;
     }
 
-.CUBO = Selector
-{} = Bloque de declaraciones
+`.CUBO = Selector` \
+`{} = Bloque de declaraciones`

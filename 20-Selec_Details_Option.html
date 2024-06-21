@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/20-Selec_Details_Option.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textarea</title>
+</head>
+<body>
+    <form>
+        <h2>Formulario de Contacto</h2>
+        <!--SIMPLE INPUTS-->
+        <div class="form_input name">
+            <input type="text" placeholder="Nombre completo">
+        </div>
+        <div class="form_input email">
+            <input type="email" placeholder="Correo Electronico">
+        </div>
+        <!--SELECT & OPTION-->
+        <div class="form_input">
+            <label>Tipo de usuario
+            <select name="type-of-user">
+                <option value="user1">Seguidor</option>
+                <option value="user2">Empresa</option>
+                <option value="user3">Otro</option>
+            </select>
+            </label>
+        </div>
+        <!--DATALIST & OPTION-->
+        <div class="form_input">
+            <label>Referente
+                <input list="Referente" name="Referente">
+                <datalist id="Referente" name="type-of-user">
+                    <option value="Anxer">Anxer</option> <!--El value es el que se envia al servidor-->
+                    <option value="Juan">Juan</option>
+                    <option value="ZLostTK">ZLostTK</option>
+                </datalist>
+            </label>
+        </div>
+        <!--TEXTAREA-->
+        <div class="form_input">
+            <textarea rows="8" placeholder="Hablame de ti."></textarea> <!--Hay un atributo llamado readonly que solamente permite leer el texto y no modificarlo y es de la etiqueta texarea otro atributo es el disable que es parecido solo que aca se deshabilita completamente y no se mandan los datos ni se puede hacer focus, el 3er atributo seria el maxlenght que basicamente te permite establecer un limite de palabras-->
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+    <!--Las usamos para mostrar datos organizadas en filas y columnas si es necesario-->
+    <head>
+        <link rel="stylesheet" href="css/23-Tables.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <table>
+            <tr><!--Arma una fila (Table road)-->
+                <th>Nombre</th> <!--dice que tipo de dato son las columnas básicamente los encabezados [No podemos crear columnas] (Table Header)-->
+                <th>Apellido</th>
+                <th>Pronombre</th>
+            </tr>
+            <tr>
+                <td>Dato1 Fila 1</td> <!--Define celdas para esa fila--> 
+                <td>Dato2 Fila 1</td>
+                <td>Dato3 Fila 1</td>
+            </tr>
+            <tr>
+                <td>Dato1 Fila 2</td>
+                <td>Dato2 Fila 2</td>
+                <td>Dato3 Fila 2</td>
+            </tr>
+            <tr>
+                <td>Dato1 Fila 3</td>
+                <td>Dato2 Fila 3</td>
+                <td>Dato3 Fila 3</td>
+            </tr>
+            <tr>
+                <th class="header_datos">Datos</th>
+                <td colspan="2" class="datos">Ocupo 2 columnas</td> <!--Colspan permite ocupar mas de 1 columna-->
+            </tr>
+        </table>
+    </body>
+</html>
